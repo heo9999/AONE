@@ -1,0 +1,3 @@
+#podman install
+yum -y install podman
+systemctl list-units | grep -i pod
