@@ -36,3 +36,15 @@ CentOS8-stream.exe
 #uninstall
 CentOS8-stream.exe clean
 
+#step 2-4
+yum update -y
+
+#step 3-1
+adduser e89112
+passwd e89112 (qawsedrf!1)
+
+#step 3-2
+gpasswd -a e89112 wheel
+
+#step 3-3
+CentOS8-stream.exe config --default-user e89112
