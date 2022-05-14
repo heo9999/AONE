@@ -21,13 +21,18 @@ install in ms store 'Windows Terminal'
 wsl --set-default-version 2
 
 #step 2-1
-centos download
+#centos download
 https://github.com/mishamosher/CentOS-WSL/releases/tag/8-stream-20220125
 
 #step 2-2
-install
+#install
+CentOS8-stream.exe
+
+#step 2-4
+#run
 CentOS8-stream.exe
 
 #step 2-3
-uninstall
+#uninstall
 CentOS8-stream.exe clean
+
