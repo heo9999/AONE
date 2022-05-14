@@ -19,4 +19,12 @@ wsl --set-default-version 2
 
 #step 2-1
 centos download
-https://github.com/mishamosher/CentOS-WSL/releases/tag/8-stream-20210210
+https://github.com/mishamosher/CentOS-WSL/releases/tag/8-stream-20220125
+
+#step 2-2
+install
+CentOS8-stream.exe
+
+#step 2-3
+uninstall
+CentOS8-stream.exe clean
