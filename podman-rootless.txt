@@ -1,0 +1,5 @@
+# yum module install -y container-tools
+# yum install -y podman-docker
+# yum install podman -y
+# useradd -c "Joe Jones" joe
+# passwd joe
