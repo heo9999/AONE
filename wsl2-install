@@ -40,14 +40,14 @@ CentOS8-stream.exe clean
 yum update -y
 
 #step 3-1
-adduser e89112
-passwd e89112 (*****)
+adduser e8936112
+passwd e8936112 (*****)
 
 #step 3-2
-gpasswd -a e89112 wheel
+gpasswd -a e8936112 wheel
 
 #step 3-3
-CentOS8-stream.exe config --default-user e89112
+CentOS8-stream.exe config --default-user e8936112
 
 #step 3-4
 wsl -u root
