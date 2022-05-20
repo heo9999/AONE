@@ -7,3 +7,10 @@
 # passwd joe
 # systemctl list-units | grep -i pod
 $ podman pull hello-world
+
+# WARN[0000] "/" is not a shared mount, this could cause issues or missing mounts with rootless containers
+# ERRO[0000] error running `/usr/bin/newuidmap 52 0 1002 1 1 100000 65536 65537 200000 1001`: newuidmap: write # to uid_map failed: Operation not permitted
+# Error: cannot setup namespace using "/usr/bin/newuidmap": exit status 1
+rpm -qV shadow-utils
+chmod 4755 /usr/bin/newgidmap
+chmod 4755 /usr/bin/newuidmap
