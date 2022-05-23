@@ -5,6 +5,7 @@ docker run \
 --name postgres \
 -e POSTGRES_PASSWORD=1q2w3e4r \
 -d --restart unless-stopped \
+-v ./pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf \
 -v $PGDATA:/var/lib/postgresql/data postgres \
 postgres
 
