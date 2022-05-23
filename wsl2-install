@@ -52,3 +52,6 @@ CentOS8-stream.exe config --default-user e8936112
 #step 3-4
 wsl -u root
 passwd (*****)
+
+#shutdown
+wsl --shutdown
